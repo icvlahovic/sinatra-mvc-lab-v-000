@@ -1,5 +1,5 @@
 class PigLatinizer
-  attr_reader :user_phrase
+  attr_accessor :user_phrase
 
   CONSONANTS = ["b", "c", "d", "f", "g", "h", "j", "k", "l", "m", "n", "p", "q", "r", "s", "t", "v", "w", "x", "y", "z"]
   TWO_LETTER_CONSONANT_CLUSTERS = ["bl", "br", "dr", "dw", "fl", "fr", "gl", "gr", "gw", "kl", "kr", "ph", "pl", "pr", "qu", "sk", "sl", "sm", "sn", "sp", "st", "sw", "th", "tr", "tw", "wh"]

@@ -15,7 +15,7 @@ class PigLatinizer
   end
 
   def piglatinize
-    self.words.map do |word|
+    user_phrase.words.map do |word|
       first_letter = word[0]
       first_two_letters = word[0, 2]
       first_three_letters = word[0, 3]

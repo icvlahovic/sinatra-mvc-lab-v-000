@@ -10,9 +10,9 @@ class PigLatinizer
   #   @user_phrase = user_phrase
   # end
 
-  def words
-    user_phrase.split
-  end
+  # def words
+  #   user_phrase.split
+  # end
 
   def piglatinize(user_phrase)
     user_phrase.split.map do |word|

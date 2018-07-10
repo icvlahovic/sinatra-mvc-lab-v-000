@@ -6,16 +6,16 @@ class PigLatinizer
   THREE_LETTER_CONSONANT_CLUSTERS = ["phl", "phr", "scr", "shr", "spl", "spr", "squ", "str", "thr"]
   VOWELS = ["a", "e", "i", "o", "u"]
 
-  def initialize
-    @user_phrase = user_phrase
-  end
+  # def initialize
+  #   @user_phrase = user_phrase
+  # end
 
   # def words
   #   user_phrase.split
   # end
 
   def piglatinize(user_phrase)
-    @user_phrase.split.map do |word|
+    user_phrase.split.map do |word|
       first_letter = word[0]
       first_two_letters = word[0, 2]
       first_three_letters = word[0, 3]

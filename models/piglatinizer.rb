@@ -6,7 +6,7 @@ class PigLatinizer
   THREE_LETTER_CONSONANT_CLUSTERS = ["phl", "phr", "scr", "shr", "spl", "spr", "squ", "str", "thr"]
   VOWELS = ["a", "e", "i", "o", "u"]
 
-  def initialize(user_phrase)
+  def initialize
     @user_phrase = user_phrase
   end
 

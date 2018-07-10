@@ -15,6 +15,7 @@ class PigLatinizer
   # end
 
   def piglatinize(user_phrase)
+    print user_phrase
     user_phrase.split.map do |word|
       first_letter = word[0]
       first_two_letters = word[0, 2]
